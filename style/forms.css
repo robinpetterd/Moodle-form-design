@@ -1,0 +1,317 @@
+/********************************************************
+**
+** Theme name: HCC
+** FORMS 
+**
+*********************************************************/
+
+
+
+
+
+/* --- Form and action related  */
+
+
+ input[type=submit]
+{
+	padding:5px;
+	font-weight:bold;
+	font-size:1.1em;
+	border:none;
+	margin:5px;
+	
+}
+
+
+.branchbuttoncontainer  input, .singlebutton  input , .arrow_text, .standardbutton  {
+	
+	padding:5px;
+	font-weight:bold;
+	font-size:1.1em;
+	border:none;
+	margin:5px;
+	
+	
+	background-color:#97ba52;
+	color:#FFF;
+}
+
+a.arrow_link:hover {
+	text-decoration:none;
+}
+
+.lessonbutton.standardbutton a {
+	
+	font-weight:bold;
+	border:none;
+	
+	background-color:#97ba52;
+	color:#FFF;
+	
+}
+
+
+.lessonbutton.standardbutton a:hover  {
+	
+	border:none;
+	
+	
+}
+
+
+	
+.standardbutton  .singlebutton  input, input.submit, .submitbtns input {
+	
+	padding:5px;
+	font-weight:bold;
+	font-size:1.1em;
+	border:none;
+	margin:5px;
+	
+	
+	background-color:#97ba52;
+	color:#FFF;
+	
+}
+
+
+#id_submitbutton, #id_submitbutton2  {
+	
+	padding:5px;
+	font-weight:bold;
+	font-size:1.1em;
+	border:none;
+	margin:5px;
+	
+	
+	background-color:#97ba52;
+	color:#FFF;
+	
+}
+
+ .homelink a {
+	
+	padding:5px;
+	font-weight:bold;
+	font-size:1.1em;
+	border:none;
+	margin:5px;
+	
+	
+	background-color:#97ba52;
+	color:#FFF;
+	
+}
+
+
+/**Turn editing on button on the Standard theme appears in the right-column*/ 
+
+#right-column .input {
+	padding:5px;
+	font-weight:bold;
+	font-size:1.1em;
+	border:none;
+	margin:5px;
+	
+	
+	background-color:#97ba52;
+	color:#FFF;
+	
+}
+
+
+.mform fieldset {
+	border:none;
+}
+
+#id_cancel {
+
+	padding:5px;
+	font-weight:bold;
+	font-size:1.1em;
+	border:none;
+	margin:5px;
+	
+	
+	background-color:#F30;
+	color:#FFF;
+	
+}
+
+
+
+input[value=HIDE]{
+
+	display:none;
+
+}
+
+/* Forward and Next Button - this not support in IE76 */
+
+input[value=Next]{ 
+
+
+	text-align: right;	
+	float:right;
+	
+	background:none;
+	background-color:#FFF;
+
+	
+	background-image: url([[pix:theme|forms/forward-arrow]]);
+	background-repeat:no-repeat;
+	
+	height: 60px;
+	width: 45px;
+	
+    text-indent: -1000em;
+	
+	font-size: 0;  	
+	display:block;  
+	line-height: 0;	
+	
+
+}
+
+input[value=NEXT]{ 
+
+	text-align: right;	
+	float:right;
+	
+	background:none;
+	background-color:#FFF;
+
+	background-image: url([[pix:theme|forms/forward-arrow]]);
+	background-repeat:no-repeat;
+	
+	height: 60px;
+	width: 45px;
+	
+	 text-indent: -1000em;
+	
+	font-size: 0;  	
+	display:block;  
+	line-height: 0;	
+
+	
+
+}
+
+
+
+input[value=BACK ]{ 
+
+	text-align: left;	
+	float:left;
+	
+	background:none;
+	
+	background-image: url([[pix:theme|forms/back-arrow]]);
+	background-repeat:no-repeat;
+	background-position: -5px -5px;
+	
+	height: 60px;
+	width: 45px;
+	
+	text-indent: -1000em;
+	
+	font-size: 0;  	
+	display:block;  
+	line-height: 0;	
+
+
+}
+
+
+
+
+
+
+/* Bits the relate directly to the quiz */ 
+
+.multichoice table input {
+	
+	/*padding:5px;
+	margin:5px;
+	
+	background-color:#97ba52;
+	color:#FFF;*/
+	
+}
+
+.questionflag {display:none;}
+
+
+
+.correctness,  .partiallycorrect { 
+
+	background-color:#F00;
+	color:#FFF;
+	font-weight:bold;
+	display:block;
+	width:100%;
+	padding:10px;
+	margin:10px;
+	
+}
+
+
+div.feedback p, .partiallycorrect { 
+
+	background-color:#F00;
+	color:#FFF;
+	font-weight:bold;
+	display:block;
+	width:100%;
+	padding:10px;
+	margin:10px;
+	
+}
+
+
+.feedback  { 
+
+	color:#F00;
+	font-weight:bold;
+	border:none;
+	
+}
+
+.feedback h4 { 
+
+	background-color:#F00;
+	color:#FFF;
+	font-weight:bold;
+	display:block;
+	width:90%;
+	padding:10px;
+	margin:10px;
+	
+}
+
+.feedback h3 { 
+
+	background-color:#97ba52;
+	color:#FFF;
+	font-weight:bold;
+	display:block;
+	width:90%;
+	padding:10px;
+	margin:10px;
+	
+}
+
+
+
+.grading .incorrect, .grading .partiallycorrect, .grading .correct  {
+	display:none;
+}
+
+
+
+
+input[value=YES]{
+
+	font-size: 2em;
+
+}
