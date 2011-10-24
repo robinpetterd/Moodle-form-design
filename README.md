@@ -8,15 +8,14 @@ Open the config.php file of your theme.
 
 Add 'sl-forms' to the  $THEME->parents
 
-eg 
-[[code format="php"]]
+eg
+ 
 $THEME->parents = array(
 	'canvas',
 	'base',
 	'sl-forms'
 );
 
-[[code]]
 
 Watch http://www.youtube.com/watch?v=6eohm2pl9qI to see how to.  
 
